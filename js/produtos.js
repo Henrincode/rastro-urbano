@@ -71,7 +71,7 @@ produtos = [{
 },]
 
 // Funções
-
+///
 function listarProdutos(filtro = "tudo") {
     const localInject = document.querySelector("#lista-produtos")
 
