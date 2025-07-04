@@ -71,14 +71,14 @@ produtos = [{
 },]
 
 // Funções
-///
+
 function listarProdutos(filtro = "tudo") {
     const localInject = document.querySelector("#lista-produtos")
 
     localInject.innerHTML = ""
     if(filtro == "tudo") {
         produtos.forEach(produto => localInject.innerHTML += `
-            <a href="./produto/?produto=${produto.id}">
+            <a href="#">
             <div class="produto">
                 <div class="imagem-texto">
                     <img src="./img/produtos/${produto.imagem}" alt="">
@@ -96,3 +96,5 @@ function listarProdutos(filtro = "tudo") {
 }
 
 listarProdutos()
+
+// <a href="./produto/?produto=${produto.id}">
