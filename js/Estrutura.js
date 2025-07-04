@@ -1,7 +1,7 @@
 // Barra navegação
 const navegacao = document.querySelector("#barra-navegacao");
 const footerListas = document.querySelector("#footer");
-//
+//----
 footerListas.innerHTML = `
     <div class="footer-listas">
         <h1>Roupas</h1>
